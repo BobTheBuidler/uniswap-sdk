@@ -122,3 +122,4 @@ version.py
 
 # Silverback stuff
 .silverback-*/
+.worktrees/

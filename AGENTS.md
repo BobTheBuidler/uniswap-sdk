@@ -15,4 +15,5 @@ All agents must follow these rules:
 9) Use one of `paths` or `paths-ignore` in every workflow file to make sure workflows only run when required.
 10) All mypy configuration (flags, overrides, per-module ignores, and file targets) should go in pyproject.toml. Do not split config across CLI args, mypy.ini, setup.cfg, or workflow steps.
 
+11) Replace them with ruff IF possible while ensuring behavior parity.
 Reference: https://www.conventionalcommits.org/en/v1.0.0/
